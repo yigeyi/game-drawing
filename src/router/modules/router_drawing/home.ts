@@ -1,9 +1,10 @@
 export default {
-  path: '/game/drawing/index.html',
+  path: '/drawing/index.html',
   name: 'index',
-  component: () => import('@pages/drawing_pages/Home.vue'),
+  component: () => import('@views/drawing_pages/Index/index.vue'),
   meta: {
     title: 'Home',
-    wxAuth: true
+    wxAuth: true,
+    index: 1
   }
 };

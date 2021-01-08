@@ -12,11 +12,29 @@ module.exports = {
       .end();
     config.resolve.alias
       .set('@', resolve('src'))
-      .set('@pages', resolve('src/pages'))
+      .set('@views', resolve('src/views'))
       .set('@styles', resolve('src/styles'))
+      .set('@components', resolve('src/components'))
       .set('@assets', resolve('src/assets'));
   },
+
+  css: {
+    // 是否使用css分离插件 ExtractTextPlugin
+    extract: true,
+    // 开启 CSS source maps?
+    sourceMap: false,
+    // css预设器配置项
+    loaderOptions: {
+      scss: {
+        prependData: `@import "~@styles/common/app.scss";`
+      }
+      // pass options to sass-loader
+    },
+    // 启用 CSS modules for all css / pre-processor files.
+    requireModuleExtension: true
+  },
   devServer: {
+    hot: true,
     port: 8091,
     proxy: {
       '/api': {

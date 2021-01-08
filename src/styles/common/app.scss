@@ -1,5 +1,5 @@
 $mobileDesign: 750;
 @function vw($px) {
   @return $px / $mobileDesign * 100vw;
-};
+}
 @import '~@styles/common/reset.scss';
