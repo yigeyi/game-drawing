@@ -4,9 +4,9 @@
   </div>
 </template>
 
-<script lang='ts'>
-import topBar from '@components/gamePage/game-top-bar.vue'
-import {defineComponent} from 'vue'
+<script lang="ts">
+import topBar from '@components/gamePage/game-top-bar.vue';
+import { defineComponent } from 'vue';
 export default defineComponent({
   name: 'gamePage',
   components: {
