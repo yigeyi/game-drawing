@@ -1,0 +1,14 @@
+.game-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #fab472;
+}
+.drawing-area {
+  flex: 1;
+}
+
+.chat-area {
+  height: vw(450);
+  background: #ccc;
+}
