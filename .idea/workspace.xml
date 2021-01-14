@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d91d7a74-1039-4180-ae15-dced86bc9683" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/gamePage/game-top-bar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gamePage/game-top-bar.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/views/Game/game.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/views/Game/game.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/drawing_pages/Game/game.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/drawing_pages/Game/game.vue" afterDir="false" />
     </list>
@@ -55,8 +56,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
@@ -90,6 +94,7 @@
       <workItem from="1608878765479" duration="13436000" />
       <workItem from="1610533714317" duration="55000" />
       <workItem from="1610534428598" duration="326000" />
+      <workItem from="1610616699638" duration="3759000" />
     </task>
     <servers />
   </component>
@@ -109,6 +114,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1250" y="502" key="#ESLint" timestamp="1610616844687">
+      <screen x="0" y="25" width="2304" height="1214" />
+    </state>
+    <state x="1250" y="502" key="#ESLint/0.25.2304.1214@0.25.2304.1214" timestamp="1610616844687" />
     <state width="1226" height="255" key="GridCell.Tab.0.bottom" timestamp="1608886253308">
       <screen x="0" y="25" width="2048" height="1070" />
     </state>

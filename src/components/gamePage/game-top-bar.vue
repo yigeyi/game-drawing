@@ -1,6 +1,8 @@
 <template>
   <div class="top-bar">
-    顶部
+    <div class="menu">菜单</div>
+    <div class="game-tip"></div>
+    <div class="count-down"></div>
   </div>
 </template>
 

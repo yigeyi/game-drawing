@@ -1,0 +1,19 @@
+.game-area {
+  //width: vw(690);
+  height: 100%;
+  //padding: 0 vw(30);
+  background: red;
+  box-sizing: border-box;
+  //margin: 0 auto;
+  //border-radius: vw(10);
+  overflow: hidden;
+  //margin-top: vw(30);
+  display: flex;
+  flex-direction: column;
+  .canvas-area {
+    //flex: 1;
+  }
+  //.control-area {
+  //  height: vw(100);
+  //}
+}
