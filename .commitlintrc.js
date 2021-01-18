@@ -25,4 +25,3 @@ module.exports = {
 // git commit -m 'bug: 修复 xxx 功能'
 
 
-// "pre-commit": "yarn lint",
