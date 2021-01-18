@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="../../../styles/views/Game/game.scss">
 <template>
   <div class="game-page">
     <div class="top-bar">

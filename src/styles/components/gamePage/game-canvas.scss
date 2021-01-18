@@ -1,6 +1,9 @@
-#canvas {
-  width: 100%;
-  //height: vw(690);
-  background: rgba(255,255,255,.8);
+.canvas-box{
   flex: 1;
+  #canvas {
+    width: 100%;
+    height: vw(625);
+    background: rgba(255,255,255,.8);
+    //flex: 1;
+  }
 }

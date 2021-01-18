@@ -1,4 +1,28 @@
 .top-bar{
+  padding: 0 vw(30);
   height: vw(100);
-  background: #444;
+  background: #f3edad;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .menu{
+    width: vw(90);
+    height: vw(60);
+    background: #ccc;
+  }
+  .game-tip{
+    height: vw(80);
+    width: vw(400);
+    border: 1px solid #ccc;
+    border-radius: vw(20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .count-down{
+    height: vw(70);
+    width: vw(70);
+    background: url("../../assets/images/game/count-down.png") center center no-repeat;
+    background-size: contain;
+  }
 }

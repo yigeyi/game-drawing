@@ -20,10 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d91d7a74-1039-4180-ae15-dced86bc9683" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/gamePage/game-control-bar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/components/gamePage/game-control-bar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/components/gamePage/game-player-list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/gamePage/game-canvas.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gamePage/game-canvas.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/gamePage/game-control.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gamePage/game-control.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/gamePage/game-top-bar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gamePage/game-top-bar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/views/Game/game.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/views/Game/game.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/components/gamePage/game-canvas.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/gamePage/game-canvas.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/components/gamePage/game-control.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/gamePage/game-control.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/components/gamePage/game-drawing-area.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/gamePage/game-drawing-area.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/components/gamePage/game-top-bar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/gamePage/game-top-bar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/drawing_pages/Game/game.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/drawing_pages/Game/game.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +47,7 @@
         <option value="JavaScript File" />
         <option value="TypeScript File" />
         <option value="Vue Single File Component" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -55,6 +67,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,6 +75,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RunManager">
@@ -94,7 +108,7 @@
       <workItem from="1608878765479" duration="13436000" />
       <workItem from="1610533714317" duration="55000" />
       <workItem from="1610534428598" duration="326000" />
-      <workItem from="1610616699638" duration="3759000" />
+      <workItem from="1610616699638" duration="11428000" />
     </task>
     <servers />
   </component>
@@ -114,10 +128,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1250" y="502" key="#ESLint" timestamp="1610616844687">
+    <state x="1250" y="502" key="#ESLint" timestamp="1610962881543">
       <screen x="0" y="25" width="2304" height="1214" />
     </state>
-    <state x="1250" y="502" key="#ESLint/0.25.2304.1214@0.25.2304.1214" timestamp="1610616844687" />
+    <state x="1250" y="502" key="#ESLint/0.25.2304.1214@0.25.2304.1214" timestamp="1610962881543" />
     <state width="1226" height="255" key="GridCell.Tab.0.bottom" timestamp="1608886253308">
       <screen x="0" y="25" width="2048" height="1070" />
     </state>
@@ -134,9 +148,14 @@
       <screen x="0" y="25" width="2048" height="1070" />
     </state>
     <state width="1226" height="255" key="GridCell.Tab.0.right/0.25.2048.1070@0.25.2048.1070" timestamp="1608886253308" />
-    <state x="1087" y="264" width="670" height="675" key="search.everywhere.popup" timestamp="1608900751502">
-      <screen x="0" y="25" width="2048" height="1070" />
+    <state x="891" y="222" key="SettingsEditor" timestamp="1610970576259">
+      <screen x="0" y="25" width="2304" height="1214" />
+    </state>
+    <state x="891" y="222" key="SettingsEditor/0.25.2304.1214@0.25.2304.1214" timestamp="1610970576259" />
+    <state x="1223" y="296" width="754" height="766" key="search.everywhere.popup" timestamp="1610966086797">
+      <screen x="0" y="25" width="2304" height="1214" />
     </state>
     <state x="1087" y="264" width="670" height="675" key="search.everywhere.popup/0.25.2048.1070@0.25.2048.1070" timestamp="1608900751502" />
+    <state x="1223" y="296" width="754" height="766" key="search.everywhere.popup/0.25.2304.1214@0.25.2304.1214" timestamp="1610966086797" />
   </component>
 </project>

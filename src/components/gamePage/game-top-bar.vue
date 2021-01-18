@@ -1,7 +1,7 @@
 <template>
   <div class="top-bar">
-    <div class="menu">菜单</div>
-    <div class="game-tip"></div>
+    <div class="menu"></div>
+    <div class="game-tip">提示</div>
     <div class="count-down"></div>
   </div>
 </template>

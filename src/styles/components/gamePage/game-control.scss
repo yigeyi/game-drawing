@@ -1,4 +1,8 @@
 .game-control {
-  height: vw(150);
-  background: rgba(0,0,0,.8);
+  padding: vw(20) 0;
+  height: vw(110);
+  background: #f3edad;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

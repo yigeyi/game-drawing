@@ -15,7 +15,8 @@ module.exports = {
       .set('@views', resolve('src/views'))
       .set('@styles', resolve('src/styles'))
       .set('@components', resolve('src/components'))
-      .set('@assets', resolve('src/assets'));
+      .set('@assets', resolve('src/assets'))
+      .set('@images', resolve('src/assets/images'));
   },
 
   css: {
@@ -36,6 +37,8 @@ module.exports = {
   devServer: {
     hot: true,
     port: 8091,
+    open: true,
+    host : "0.0.0.0",
     proxy: {
       '/api': {
         //target: 'http://csair-social-media.test',
