@@ -4,7 +4,6 @@
   "private": true,
   "husky": {
     "hooks": {
-      "pre-commit": "yarn lint",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "pre-push": "echo 推送代码"
     }

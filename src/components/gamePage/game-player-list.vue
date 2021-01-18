@@ -1,6 +1,6 @@
 <template>
   <div class="game-player-list">
-    <div class="game-player-item" v-for="item in playerList">
+    <div class="game-player-item" v-for="(item, index) in playerList" :key="index" data-item="item">
       <img src="../../assets/images/game-control/touxiang.jpeg" alt="" class="header-img">
     </div>
   </div>
@@ -15,9 +15,6 @@ export default defineComponent({
       type: Object,
       default: ()=>({})
     }
-  },
-  setup(props){
-  
   },
   data(){
     return{

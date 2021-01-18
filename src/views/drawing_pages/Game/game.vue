@@ -13,16 +13,12 @@
 <script lang="ts">
 import topBar from '@components/gamePage/game-top-bar.vue';
 import gameDrawing from '@components/gamePage/game-drawing-area.vue';
-import gameCanvas from '@components/gamePage/game-canvas.vue';
-import gameControl from '@components/gamePage/game-control.vue';
 import { defineComponent } from 'vue';
 export default defineComponent({
   name: 'gamePage',
   components: {
     topBar,
-    gameDrawing,
-    gameCanvas,
-    gameControl
+    gameDrawing
   }
 });
 </script>
