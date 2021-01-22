@@ -1,7 +1,7 @@
 .control-bar{
   height: vw(85);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   font-size: vw(24);
   .bar-item{
@@ -28,6 +28,31 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      .size-item{
+        margin: 0 vw(10);
+        //border: 1px solid #fff;
+
+        &.small,
+        &.middle,
+        &.big {
+          font-size: vw(20);
+          color: #fff;
+        }
+      }
+
+    }
+  }
+  .pen-operation{
+    .operation-bar{
+      display: flex;
+      .operation-item{
+        height: vw(40);
+        width: vw(48);
+        margin: 0 vw(10);
+        img{
+          width: 100%;
+        }
+      }
     }
   }
 }

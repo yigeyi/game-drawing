@@ -1,6 +1,6 @@
 <template>
   <div class="canvas-box">
-    <canvas id="canvas" @touchstart="touchDown($event)" @touchend="touchUp(event)" @touchmove="touchmove(event)"></canvas>
+    <canvas id="canvas" @touchstart="touchDown($event)" @touchend="touchUp($event)" @touchmove="touchmove($event)"></canvas>
     <game-control-bar></game-control-bar>
   </div>
 </template>
@@ -13,8 +13,23 @@ export default defineComponent({
     components: {
         gameControlBar
     },
+  data(){
+      return{
+        currentRoomData:{
+          currentAuthorId: 0
+        },
+        userInfo: {
+          userId: 1
+        }
+      }
+  },
   setup(ctx, props){
+    /**
+     * 开始画画
+     * @param e
+     */
     const touchDown = function(e){
+      if(currentRoomData.currentAuthorId === userInfo.userId) return;
       console.log('touchDown', e)
     }
     const touchUp = function(e){

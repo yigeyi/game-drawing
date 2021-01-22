@@ -20,21 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d91d7a74-1039-4180-ae15-dced86bc9683" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/gamePage/game-control-bar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/components/gamePage/game-control-bar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/components/gamePage/game-player-list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/game-control/icon_shangyibu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/game-control/icon_shuazi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/game-control/icon_xiayibu.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/gamePage/game-canvas.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gamePage/game-canvas.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/gamePage/game-control.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gamePage/game-control.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/gamePage/game-top-bar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gamePage/game-top-bar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/gamePage/game-canvas.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/gamePage/game-canvas.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/gamePage/game-control.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/gamePage/game-control.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/gamePage/game-drawing-area.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/gamePage/game-drawing-area.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/gamePage/game-top-bar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/gamePage/game-top-bar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/drawing_pages/Game/game.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/drawing_pages/Game/game.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/gamePage/game-control-bar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gamePage/game-control-bar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/components/gamePage/game-control-bar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/gamePage/game-control-bar.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +100,11 @@
       <workItem from="1608878765479" duration="13436000" />
       <workItem from="1610533714317" duration="55000" />
       <workItem from="1610534428598" duration="326000" />
-      <workItem from="1610616699638" duration="11428000" />
+      <workItem from="1610616699638" duration="11669000" />
+      <workItem from="1611112896637" duration="847000" />
+      <workItem from="1611205282062" duration="652000" />
+      <workItem from="1611281690516" duration="618000" />
+      <workItem from="1611283256230" duration="3511000" />
     </task>
     <servers />
   </component>
