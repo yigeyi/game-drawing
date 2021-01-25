@@ -16,6 +16,7 @@ module.exports = {
       .set('@styles', resolve('src/styles'))
       .set('@components', resolve('src/components'))
       .set('@assets', resolve('src/assets'))
+      .set('@hooks', resolve('src/hooks'))
       .set('@images', resolve('src/assets/images'));
   },
 

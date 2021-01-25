@@ -1,8 +1,7 @@
-<link rel="stylesheet" href="../../styles/components/gamePage/game-drawing-area.scss">
 <template>
   <div class="game-area">
 <!--    <div class="canvas-area">-->
-      <game-canvas></game-canvas>
+      <game-drawing-view></game-drawing-view>
 <!--    </div>-->
 <!--    <div class="control-area">-->
       <game-control></game-control>
@@ -11,11 +10,11 @@
 </template>
 
 <script>
-import gameCanvas from './game-canvas';
+import gameDrawingView from './game-drawing-view';
 import gameControl from './game-control';
 export default {
   components: {
-    gameCanvas,
+    gameDrawingView,
     gameControl
   }
 };
