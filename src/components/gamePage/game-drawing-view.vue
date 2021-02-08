@@ -1,7 +1,7 @@
 <template>
   <div class="canvas-box"  >
     <canvas id="canvas" ref="canvasRef"    @touchstart="touchDown($event)" @touchend="touchUp($event)" @touchmove="touchmove($event)"></canvas>
-    <game-control-bar></game-control-bar>
+    <game-control-bar @setPenConfig="setPenStyle"></game-control-bar>
   </div>
 </template>
 
@@ -25,17 +25,40 @@ export default defineComponent({
         }
       }
   },
+    props: {
+      penConfig: {
+          type: propType
+      }
+    },
   setup(ctx, props){
     const canvasRef = ref<null | HTMLElement>(null)
     const handleCanvas = useHandleCanvas(canvasRef);
     const touchDown = handleCanvas.touchDown;
     const touchUp = handleCanvas.touchUp;
     const touchmove = handleCanvas.touchmove;
+    const setPenColor = (color)=>{
+        console.log('set color',color)
+    }
+    const setPenLineWidth = (lineWidth)=>{
+        console.log('set lineWidth',lineWidth)
+    }
+    const setPenStyle = (e) => {
+        console.log('setPenStyle', e);
+        if(e.type === 'width') {
+            setPenLineWidth(e.data)
+        }else{
+            setPenColor(e.data)
+        }
+        
+    }
     return {
       touchDown,
       touchUp,
       touchmove,
-      canvasRef
+      canvasRef,
+      setPenStyle,
+      setPenColor,
+      setPenLineWidth
     }
   }
 });

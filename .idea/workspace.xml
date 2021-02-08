@@ -20,15 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d91d7a74-1039-4180-ae15-dced86bc9683" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/gamePage/game-drawing-view.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/gamePage/config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/gamePage/drawingViewConfig/eventCanvasInstance.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/gamePage/drawingViewConfig/initCanvasInstance.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/gamePage/useHandleCanvas.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataType/dataTy.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/gamePage/game-canvas.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/gamePage/game-drawing-area.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gamePage/game-drawing-area.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/gamePage/game-control-bar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gamePage/game-control-bar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/gamePage/game-drawing-view.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gamePage/game-drawing-view.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/gamePage/useHandleCanvas.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/gamePage/useHandleCanvas.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +108,7 @@
       <workItem from="1611205282062" duration="652000" />
       <workItem from="1611281690516" duration="618000" />
       <workItem from="1611283256230" duration="3511000" />
-      <workItem from="1611536873703" duration="20828000" />
+      <workItem from="1611536873703" duration="26587000" />
     </task>
     <servers />
   </component>
@@ -162,5 +158,17 @@
     <state x="1087" y="264" width="670" height="675" key="search.everywhere.popup/0.25.2048.1070@0.25.2048.1070" timestamp="1608900751502" />
     <state x="1223" y="296" width="754" height="766" key="search.everywhere.popup/0.25.2304.1214@0.25.2304.1214" timestamp="1610966086797" />
     <state x="1359" y="328" width="840" height="857" key="search.everywhere.popup/0.25.2560.1358@0.25.2560.1358" timestamp="1611565468224" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/gamePage/game-control-bar.vue</url>
+          <line>63</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

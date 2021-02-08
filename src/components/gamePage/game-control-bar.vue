@@ -4,14 +4,14 @@
     <div class="pen-color bar-item">
       <div class="bar-title">颜色</div>
       <div class="color-bar">
-        <span  class="color-item" v-for="(item,index) in colors" :key="index" :style="{background: item}"></span>
+        <span  class="color-item" v-for="(item,index) in colors" :key="index" :style="{background: item}" :data-color="item" @click="setPenConfig('color', $event)"></span>
       </div>
     </div>
 <!--    画笔大小-->
     <div class="pen-size  bar-item">
       <div class="bar-title">大小</div>
       <div class="size-bar">
-       <div class="size-item" v-for="(pen, index) in brushs" :key="index" @click="setPenConfig" :class="[pen.className,{ active: penConfig.lineWidth === pen.lineWidth },]">{{pen.title}}</div>
+       <div class="size-item" v-for="(pen, index) in brushs" :key="index" :data-width="pen.lineWidth"  @click="setPenConfig('width', $event)" :class="[pen.className,{ active: penConfig.lineWidth === pen.lineWidth },]">{{pen.title}}</div>
       </div>
     </div>
 <!--    操作-->
@@ -26,10 +26,11 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import  {defineComponent} from 'vue'
   export default {
     name: "gameControlBar",
+    emits: ['setPenConfig'],
     data(){
       return{
         //画笔配置
@@ -88,6 +89,18 @@ import  {defineComponent} from 'vue'
           },
         ];
       },
+    },
+    setup(props, context){
+      const setPenConfig=(type, $event)=>{
+        console.log('setPenConfig', type, $event)
+        context.emit('setPenConfig', {
+          type,
+          data: $event.target.dataset[type]
+        })
+      }
+      return {
+        setPenConfig
+      }
     }
   }
 </script>
